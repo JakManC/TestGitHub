@@ -1,4 +1,5 @@
 import React from "react";
+import DisplayCount from "./components/DisplayCount";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       >
         This Is Initial Counter File....
       </h1>
+
+      <DisplayCount />
     </div>
   );
 }
