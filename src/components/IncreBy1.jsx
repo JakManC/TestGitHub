@@ -1,5 +1,5 @@
 import React from "react";
-import useCounterStore from "../../counterStore";
+import useCounterStore from "../../countStore";
 
 function IncreBy1() {
   const increBy1Method = useCounterStore((state) => state.increBy1Method);

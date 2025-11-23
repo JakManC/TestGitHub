@@ -1,5 +1,5 @@
 import React from "react";
-import useCounterStore from "../../counterStore";
+import useCounterStore from "../../countStore";
 
 function DisplayCount() {
   const initialCount = useCounterStore((state) => state.initialCount);

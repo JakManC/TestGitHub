@@ -1,8 +1,8 @@
 import React from "react";
-import useCounterStore from "../../counterStore";
+import useCountStore from "../../countStore";
 
 function DecreBy1() {
-  const decreBy1Method = useCounterStore((state) => state.decreBy1Method);
+  const decreBy1Method = useCountStore((state) => state.decreBy1Method);
   return (
     <div>
       <button

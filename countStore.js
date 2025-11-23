@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-const useCounterStore = create((set, get) => ({
+const useCountStore = create((set, get) => ({
   initialCount: 0,
 
   increBy1Method: () =>
@@ -12,4 +12,4 @@ const useCounterStore = create((set, get) => ({
       initialCount: state.initialCount - 1,
     })),
 }));
-export default useCounterStore;
+export default useCountStore;
